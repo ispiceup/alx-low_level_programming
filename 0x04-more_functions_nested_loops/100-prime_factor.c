@@ -8,14 +8,14 @@
  */
 int main(void)
 {
-	long k;
+	long i;
 	long num = 612852475143;
 
-	for (k = 2; k < num; k++)
+	for (i = 2; i < num; i++)
 	{
-		if (num % k == 0)
-			num /= k;
+		if (num % i == 0)
+			num /= i;
 	}
-	printf("%lk\n", num);
+	printf("%li\n", num);
 	return (0);
 }
