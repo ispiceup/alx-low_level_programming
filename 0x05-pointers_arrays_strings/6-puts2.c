@@ -6,17 +6,17 @@
 * Return: print
 */
 
-void puts2(char *str);
+void puts2(char *str)
 {
+
 	int a = 0;
 
-	for (; str[a] != '\0'; a++
-
+	for (; str[a] != '\0'; a++)
 	{
-		if ((a % 2) == o)
+		if ((a % 2) == 0)
 			_putchar(str[a]);
 		else
 			continue;
 	}
-	_putchar('\n')
+	_putchar('\n');
 }
