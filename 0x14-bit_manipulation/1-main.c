@@ -18,4 +18,5 @@ int main(void)
     printf("\n");
     print_binary((1 << 10) + 1);
     printf("\n");
-    ret
+    return (0);
+}
